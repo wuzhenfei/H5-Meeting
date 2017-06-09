@@ -1,0 +1,45 @@
+@media only screen and (max-width: 640px){
+.Position{ position:absolute; z-index:9999}
+#loading{width:100%;height:100%;position:absolute;top:0;left:0;z-index:10000;background-color:#FFF;}
+.Load{ position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; color: #aaa; background: #000 url(../images/load2.jpg) no-repeat 50% 50% / 100% auto;}
+.Load .p1-1{position:absolute; width:150%; top: 50%; left: 50%;margin: -75% 0 0 -75%;-webkit-animation: ani-load1 3s linear infinite both;animation: ani-load1 3s linear infinite both;}
+.Load .p1-2{ width: 28.125%;  margin: -16.0625% 0 0 -14.0625%; position:absolute; top: 50%; left: 50%;}
+.Load .logo{ width: 20%;margin: -12% 0 0 -10%; overflow: hidden; border-radius: 100%;position:absolute; top: 50%; left: 50%;}
+.loadnumber { text-align: center; font-size: 1.2em; color: #fff;position:absolute; top: 60%; width:100%}
+/*icon*/
+.ico1 {display: inline-block; width: 1em; height: 1em; background-image:url(../images/ico.png); vertical-align: middle; margin-top: -0.2em; background-position-y: 0%;}
+.user1{background: url(../images/urse1.jpg) center center;background-size: 100%;}
+.user2{background: url(../images/touxiang.jpg) center center;background-size: 100%;}
+/*s1*/
+.s1 { -webkit-animation: fadeIn 0.2s linear both; background: #1f2427; color: #999; height: 100%; overflow: hidden;}
+.s1>* { position: absolute; top: 0; left: 0; width: 100%;}
+.s1 header { -webkit-animation: fadeIn-t 0.2s 0.2s ease-out both; text-align: center; line-height: 1.2em; margin-top: 12%;}
+.s1 header h3 { font-size: 1.25em; }
+.s1 header h4 { margin: 4% 0 3%;}
+.s1 header h4 i { display: inline-block; position: relative; width: 1em; height: 1em; line-height: 1em; margin: 0 -0.05em; vertical-align: top; font-size: 2.5em; font-weight: normal; color: #02e903; text-shadow: #237223 0 0 1px; -webkit-text-stroke: #193c20 1px;}
+.s1 header h4 i:empty:after { content: ""; position: absolute; top: 50%; left: 50%; font-size: 0.3em; width: 1em; height: 1em; margin: -0.5em 0 0 -0.5em; border-radius: 1em; background: #1a1a1a; border: solid #193c20 1px;}
+.s1 header h5 { opacity: 0; font-size: 1.2em; color: #666; border-bottom: solid rgba(100,100,100,0.15) 1px; margin: 0 5%; padding-bottom: 4%;}
+.s1 center { display: none; top: auto; bottom: 0; padding: 4%;}
+.s1 center a { display: block; background-color: #1aad19; color: #fff; font-size: 1.4em; line-height: 2.5em; letter-spacing: 0.1em; border-radius: 0.25em;}
+.s1 center a:active { background-color: #1ac019;}
+.s1 footer { -webkit-animation: fadeIn-b 0.2s 0.3s ease-out both; top: auto; bottom: 0; background: #1d2225;}
+.s1 footer i { float: left; width: 33.3%; border-top: solid #262b2d 1px; border-left: solid #262b2d 1px; font-size: 2em; color: #666; line-height: 2em; height: 2.5em; text-align: center;}
+.s1 footer i:nth-child(3n+1){ border-left: none;}
+.s1 footer i:active { background: #ccc;}
+/*s2*/
+.s2{display: none;background:#ebebeb; padding-bottom:50px}
+.s2 ul{padding:20px 10px 0}
+.s2 li{line-height: 36px;height:auto;margin-bottom:25px;position: relative; display:none}
+.s2 li.center{ text-align:center}
+.s2 li span{display: inline-block; background: #ccc; border-radius:4px;text-align: left;padding:0px 11px;line-height:28px;color: #fff;}
+.s2 li h2{float: left;position: relative; width:42px; height:42px; margin-right:15px}
+.s2 li p{position: relative;float: left;font-size: 14px;line-height: 28px;  max-width: 80%;color: #000;background: #fff;border: solid #bbb 1px;border-radius: 4px;padding: 8px 11px; box-sizing: border-box}
+.s2 li p:before{content: "";position: absolute;top: 0;left: 0;width:8px;height:8px;background: #fff;border-top: solid #bbb 1px;border-left: solid #bbb 1px;-webkit-transform: rotate(-45deg);transform: rotate(-45deg);margin:10px 0 0 -5px;}
+.s2 li:after{content: ""; display: block;clear: both;height: 0;}
+.s2 li.my h2{float: right;margin:0 0 0 15px;}
+.s2 li.my p{float: right;background: #a0e75a; border-color: #bbb;}
+.s2 li.my p:before{left: auto;right: 0; -webkit-transform: rotate(135deg);transform: rotate(135deg);margin-right: -5px;background: #a0e75a; border-color: #bbb;}
+.scroll{height:90%;overflow: scroll;padding-bottom: 20%;}
+.s2input{position: fixed;bottom:0;border-top: solid #e3e3e3 1px; background-color: #ebebeb;}
+.s2input img{ width:100%; height:auto}
+}
